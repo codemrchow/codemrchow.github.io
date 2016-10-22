@@ -90,7 +90,7 @@
 <meta property="og:url" content="http://codemrchow.github.io/2016/10/22/css3渐变的特性/index.html">
 <meta property="og:site_name" content="MrChow的博客小站">
 <meta property="og:description" content="线性渐变格式linear-gradient([&amp;lt;起点&amp;gt; || &amp;lt;角度&amp;gt;,]? &amp;lt;点&amp;gt;, &amp;lt;点&amp;gt;…)只能用在背景上IE filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=’#ffffff’,endColorstr=’#ff0000’,GradientType=’1’);参数起">
-<meta property="og:updated_time" content="2016-10-22T09:32:29.238Z">
+<meta property="og:updated_time" content="2016-10-22T09:34:51.691Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="css3渐变的特性">
 <meta name="twitter:description" content="线性渐变格式linear-gradient([&amp;lt;起点&amp;gt; || &amp;lt;角度&amp;gt;,]? &amp;lt;点&amp;gt;, &amp;lt;点&amp;gt;…)只能用在背景上IE filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=’#ffffff’,endColorstr=’#ff0000’,GradientType=’1’);参数起">
@@ -331,7 +331,7 @@
       
 
       
-        <h2 id="线性渐变格式"><a href="#线性渐变格式" class="headerlink" title="线性渐变格式"></a>线性渐变格式</h2><p>linear-gradient([&lt;起点&gt; || &lt;角度&gt;,]? &lt;点&gt;, &lt;点&gt;…)<br>只能用在背景上<br>IE filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=’#ffffff’,endColorstr=’#ff0000’,GradientType=’1’);<br>参数<br>起点：从什么方向开始渐变        默认：top<br>left、top、left top<br>角度：从什么角度开始渐变<br>xxx deg的形式<br>点：渐变点的颜色和位置<br>black 50%，位置可选<br><a id="more"></a></p>
+        <h2 id="线性渐变格式"><a href="#线性渐变格式" class="headerlink" title="线性渐变格式"></a>线性渐变格式</h2><p>linear-gradient([&lt;起点&gt; || &lt;角度&gt;,]? &lt;点&gt;, &lt;点&gt;…)<br>只能用在背景上<br>IE filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=’#ffffff’,endColorstr=’#ff0000’,GradientType=’1’);<br>参数<br>起点：从什么方向开始渐变        默认：top<br>left、top、left top<br>角度：从什么角度开始渐变<br>xxx deg的形式<br>点：渐变点的颜色<a id="more"></a>和位置<br>black 50%，位置可选</p>
 <h2 id="线性渐变实例"><a href="#线性渐变实例" class="headerlink" title="线性渐变实例"></a>线性渐变实例</h2><p>最简单<br>red, green<br>从上到下<br>起点位置<br>left top, red, green<br>30deg, red, green<br>逆时针<br>repeating-linear-gradient</p>
 <h2 id="线性渐变实例-2"><a href="#线性渐变实例-2" class="headerlink" title="线性渐变实例(2)"></a>线性渐变实例(2)</h2><p>加入点的位置<br>top, red 40%, green 60%<br>top, red 50%, green 50%<br>同一个位置两个点——直接颜色跳变<br>(但是颜色之间会有锯齿状的纹路，解决：不要让两个点的位置相等,之间要有一定的差值background-image:-webkit-linear-gradient(70deg,#fff 30.6%,blue 30.9%);margin: 0;)</p>
 <p>也可以用px<br>配合rgba<br>top, rgba(255,255,255,1), rgba(255,255,255,0)<br>加入背景图片<br>background: -webkit-linear-gradient (top, rgba(255,255,255,1) 30%, rgba(255,255,255,0)), url(a.gif)</p>
